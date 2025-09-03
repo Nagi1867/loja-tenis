@@ -34,44 +34,45 @@
         </div>
     </nav>
 
-    <footer>
-        <div>
-            <ul>
-                <li>T SHOP</li>
+    @yield("content")
+
+    <footer class="fixed bottom-0 left-0 w-full border">
+        <div class="w-full flex flex-row items-center">
+            <ul class="bg-black text-white py-20 px-46">
+                <li class="font-bold text-2xl">T SHOP</li>
                 <li>tshop@gmail.com</li>
                 <li>Tel: (11) 3456-7890</li>
             </ul>
 
-            <div>
-                <ul>
-                    <li>Comprar</li>
-                    <li>Novo</li>
-                    <li>Tees pra elas</li>
-                    <li>Tees pra eles</li>
+            <div class="w-full flex items-center ml-auto mx-auto px-60 py-2 gap-25">
+                <ul class="w-full">
+                    <li class="mb-1">Comprar</li>
+                    <li class="text-sm">Novo</li>
+                    <li class="text-sm">Tees pra elas</li>
+                    <li class="text-sm">Tees pra eles</li>
                 </ul>
 
-                <ul>
-                    <li>Nossa loja</li>
-                    <li>Sobre nós</li>
-                    <li>Assinar</li>
-                    <li>FAQ</li>
+                <ul class="w-full">
+                    <li class="mb-1">Nossa loja</li>
+                    <li class="text-sm">Sobre nós</li>
+                    <li class="text-sm">Assinar</li>
+                    <li class="text-sm">FAQ</li>
                 </ul>
 
-                <ul>
-                    <li>Termos e Condições</li>
-                    <li>Política da loja</li>
-                    <li>Envio e devolução</li>
-                    <li>Métodos de pagamento</li>
-                    <li>Políticas de Cookies</li>
+                <ul class="w-full">
+                    <li class="mb-1">Termos e Condições</li>
+                    <li class="text-sm">Política da loja</li>
+                    <li class="text-sm">Envio e devolução</li>
+                    <li class="text-sm">Métodos de pagamento</li>
+                    <li class="text-sm">Políticas de Cookies</li>
                 </ul>
             </div>
         </div>
 
-        <div>
+        <div class="w-full text-center py-4 bg-cyan-500 text-white">
             <h1>&copy; 2035 por T Shop. Todos os direitos reservados</h1>
         </div>
     </footer>
-
 </body>
 
 </html>
